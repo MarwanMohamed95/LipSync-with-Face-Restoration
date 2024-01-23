@@ -22,6 +22,7 @@ This repository contains a system to generate high quality lip-synced videos usi
 4. **GFPGAN Face Restoraion:**
 
    - Processes the frames from the lip-synced video to to generate realistic and high-quality results.
+     - Example command: `python inference_gfpgan.py -i $input_dir -o $output_dir -v 1.3 -s 2 --bg_upsampler realesrgan`
 
 5. **Dependencies:**
 
