@@ -1,8 +1,8 @@
-# Lip Syncing
+# Lip Syncing with Face Restoration
 
 ## Overview
 
-This repository contains a system to generate high quality lip-synced videos using the Wav2Lip and GFPGAN models. The process involves generating English audio using text-to-speech model and genarating input image using diffusion model then creating corresponding lip-synced videos.
+This repository contains a system to generate high quality lip-synced videos using the Wav2Lip and GFPGAN models. The process involves generating English audio using text-to-speech model and genarating input image using diffusion model then creating corresponding high quality lip-synced videos by processing the frames using GFPGAN model.
 
 ## Steps
 
